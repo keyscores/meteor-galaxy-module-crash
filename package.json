@@ -2,7 +2,9 @@
   "name": "module-sanity",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "deploy": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy test.wireline.io --settings ../wireline/settings.json"
+
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0",
