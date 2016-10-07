@@ -2,6 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import Future from 'fibers/future';
 
 
+/// this NPM package is private but I have re-published it under a random alias publicly for your testing.
 const SANDBOX = require('vQMgArq1o4U1').sandbox;
 const startCluster = require('vQMgArq1o4U1').startCluster
 const sendScriptJob = require('vQMgArq1o4U1').sendScriptJob
